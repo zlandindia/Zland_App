@@ -17,9 +17,9 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { EvilIcons } from '@expo/vector-icons';
 import * as Device from 'expo-device';
 import * as Notifications from 'expo-notifications';
-import { color } from "react-native-reanimated";
 import { AntDesign } from '@expo/vector-icons';
 import useGenerateRandomColor from "./supports/colorGenerator";
+import InAppUpdate from './InAppUpdate'
 
 Notifications.setNotificationHandler({
   handleNotification: async () => ({
@@ -169,6 +169,10 @@ export default function Page() {
       Notifications.removeNotificationSubscription(responseListener.current);
     };
   }, []);
+
+  useEffect(() => {
+    InAppUpdate.checkUpdate()
+  })
 
   // End Existing cities
   useEffect(() => {
