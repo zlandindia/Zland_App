@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1009896665642",
+    "project_id": "zland-india",
+    "storage_bucket": "zland-india.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009896665642:android:b9cd00218df5a1fa520953",
+        "android_client_info": {
+          "package_name": "com.ambalooms.Zland"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009896665642-du6d6okjjc4k31sj0fh6la9l4qrsh52r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChFbyEvDAbwyw0ipsGqjMUmiQaWKYCECA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009896665642-du6d6okjjc4k31sj0fh6la9l4qrsh52r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

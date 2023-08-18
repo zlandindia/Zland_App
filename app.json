@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "scheme": "com.ambalooms.Zland",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "Zland_India",
+    "icon": "icon.png",
+    "slug": "Zland_Frontend",
+    "extra": {
+      "eas": {
+        "projectId": "2dff0dce-2cfd-4b60-92f0-30de1040a491"
+      }
+    },
+    "android": {
+      "package": "com.ambalooms.Zland",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    }
+  }
+}
