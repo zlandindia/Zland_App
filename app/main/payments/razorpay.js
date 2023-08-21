@@ -113,7 +113,7 @@ const checkout = () => {
     async function getDetails() {
         return await axios
             .get(
-                "http://ec2-3-109-5-112.ap-south-1.compute.amazonaws.com:5000/api/payment/paymentDetails"
+                "http://ec2-3-109-5-112.ap-south-1.compute.amazonaws.com:5000/api/payment/razorpay"
             )
             .then((response) => {
                 return response;

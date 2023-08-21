@@ -130,7 +130,7 @@ export default function Page() {
 
   async function checkout() {
     router.push({
-      pathname: "/main/payments/checkout",
+      pathname: "/main/payments/razorpay",
     });
   }
 

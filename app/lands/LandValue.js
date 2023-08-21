@@ -57,7 +57,7 @@ const Landvalue = ({ route }) => {
               loginTokenFunction()
               // Pass Data
               router.push({
-                pathname: "/main/payments/checkout",
+                pathname: "/main/payments/razorpay",
                 params: {
                   name: landName,
                   street: street,
